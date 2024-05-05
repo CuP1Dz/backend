@@ -1,0 +1,41 @@
+.header_cont{
+    width: 90%;
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    align-items: center;
+    width: 100%;
+    max-width: 180px;
+}
+.contact{
+width: 160px;
+height: 50px;
+border-radius: 9px;
+background-color: #1e2827;
+border: 0px;
+color: #fff;
+}
+.header-wrapper{
+    display: flex;
+    width: 100%;
+    max-width: 390px;
+    align-items: center;
+    justify-content: space-between;
+}
