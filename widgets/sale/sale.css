@@ -1,0 +1,137 @@
+.sale{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.sale-cont{
+    width: 90%;
+    display: grid;
+}
+.sale-cont h2{
+    margin-bottom: 100px;
+    font-weight: 600;
+font-size: 40px;
+line-height: 110%;
+letter-spacing: -0.02em;
+color: #1e2827;
+}
+.sale-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.wrapper{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.sale-left{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.sale-imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sale-imgs img{
+    width: 100%;
+}
+.sale-big-img img{
+    width: 100%;
+    height: 100%;
+}
+.sale-right{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.upper-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.upper-txt h3{
+    font-weight: 400;
+font-size: 38px;
+line-height: 105%;
+letter-spacing: -0.02em;
+color: #141414;
+}
+.upper-txt-p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+color: rgba(20, 20, 20, 0.5);
+}
+.upper-txt span{
+    font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: -0.02em;
+text-decoration: line-through;
+color: rgba(20, 20, 20, 0.5);
+}
+.middle-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+.middle-txt p{
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.01em;
+color: rgba(20, 20, 20, 0.5);
+}
+.middle-txt h3{
+    font-weight: 400;
+font-size: 18px;
+line-height: 133%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #141414;
+}
+.under-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+.under-txt p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.01em;
+color: rgba(20, 20, 20, 0.5);
+}
+.under-txt h3{
+    font-weight: 400;
+font-size: 18px;
+line-height: 133%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #141414;
+}
+
+@media (max-width:768px) {
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width:425px) {
+    .sale-left{
+        display: flex;
+        gap: 20px;
+    }
+}
